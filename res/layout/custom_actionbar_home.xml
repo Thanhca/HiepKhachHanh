@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0071BD"
+    android:orientation="vertical" >
+
+   <Button
+        android:id="@+id/btn_raovat"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_down_load_charter_book1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/raovat"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+    <!--  -->
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/btn_raovat"
+        android:layout_toRightOf="@+id/btn_raovat"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/sachhay"
+        android:textColor="#F2622B" />
+    <!--  -->
+
+    <Button
+        android:id="@+id/btn_chuong"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_down_load_charter_book1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/chuong"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+</RelativeLayout>
